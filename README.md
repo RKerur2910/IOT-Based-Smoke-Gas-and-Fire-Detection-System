@@ -35,21 +35,27 @@ USB Cable / Power Supply
 
 🔌 Circuit Diagram & Wiring
 🔥 Flame Sensor
-Pin	Arduino
-VCC	5V
-GND	GND
-A0	A0
+
+| Pin | Arduino |
+| --- | ------- |
+| VCC | 5V      |
+| GND | GND     |
+| A0  | A0      |
 
 💨 MQ-2 Gas Sensor
-Pin	Arduino
-VCC	5V
-GND	GND
-A0	A1
+
+| Pin | Arduino |
+| --- | ------- |
+| VCC | 5V      |
+| GND | GND     |
+| A0  | A1      |
 
 🔔 Buzzer & LED
-Component	Arduino Pin
-Buzzer	D2
-LED	D3
+
+| Component | Arduino Pin |
+| --------- | ----------- |
+| Buzzer    | D2          |
+| LED       | D3          |
 
 Note: Connect the negative terminals to GND through appropriate resistors.
 
@@ -75,11 +81,10 @@ Monitor the System: Power the Arduino. The system begins detecting fire and smok
 Test Triggers: Use a lighter or incense stick to simulate smoke or flame detection.
 
 🛠️ Troubleshooting
-Issue	Solution
-Sensor not detecting	Check connections, power, and analog input pins
-False alarms	Calibrate sensors; check for environmental factors (humidity, gases)
-No alert on detection	Ensure buzzer and LED are wired correctly and receiving signals from the Arduino
 
-🤝 Contributing
-Feel free to fork this repo, report issues, or submit pull requests with improvements!
-
+| Issue                 | Solution                                                                         |
+| --------------------- | -------------------------------------------------------------------------------- |
+| Sensor not detecting  | Check connections, power, and analog input pins                                  |
+| False alarms          | Calibrate sensors; check for environmental factors (humidity, gases)             |
+| No alert on detection | Ensure buzzer and LED are wired correctly and receiving signals from the Arduino |
+ 
